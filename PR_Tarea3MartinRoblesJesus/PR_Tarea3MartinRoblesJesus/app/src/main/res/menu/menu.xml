@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuPreferencias"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Preferencias"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menuInsertarProducto"
+        android:title="Añadir"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menuEliminarProducto"
+        android:title="Eliminar"
+        app:showAsAction="never"
+        />
+
+</menu>
